@@ -1,6 +1,7 @@
 FathersLegacy
 =============
 
-Our Game: Fathers Legacy: Students Quest
+Our Game: Students Quest: Fathers Legacy
+=============
 
 Game Engine: Unity
