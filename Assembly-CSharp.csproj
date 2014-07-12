@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{91E2C8BD-3E10-46D4-380F-9DB0FB8BA83D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Grafika/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Grafika/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="assets\AnimationStateMachine\Archive\RootMotionControllerv1\Plugins\Mixamo\RootMotionComputer.cs" />
+     <Compile Include="assets\AnimationStateMachine\Archive\RootMotionControllerv1\Scripts\RootMotionCharacter.cs" />
+     <Compile Include="assets\AnimationStateMachine\Aux Scripts\AnimationGraph.cs" />
+     <Compile Include="assets\AnimationStateMachine\Aux Scripts\AnimationInfo.cs" />
+     <Compile Include="assets\AnimationStateMachine\Aux Scripts\ExtendendMonoBehaviour.cs" />
+     <Compile Include="assets\AnimationStateMachine\Aux Scripts\MixamoJSON.cs" />
+     <Compile Include="assets\AnimationStateMachine\Aux Scripts\Util.cs" />
+     <Compile Include="assets\AnimationStateMachine\Blank Scripts for You\YourController.cs" />
+     <Compile Include="assets\AnimationStateMachine\Scripts\AnimationStateMachine.cs" />
+     <Compile Include="assets\AnimationStateMachine\Scripts\MixamoDemoControlScript.cs" />
+     <Compile Include="assets\Done\DoneScripts\GameControllerScripts\DoneHashIDs.cs" />
+     <Compile Include="assets\Done\DoneScripts\GameControllerScripts\DoneTags.cs" />
+     <Compile Include="assets\Done\DoneScripts\PlayerScripts\DonePlayerMovement.cs" />
+     <Compile Include="assets\MixamoAnimatorEvents\AnimEvent.cs" />
+     <Compile Include="assets\MixamoAnimatorEvents\AnimatorEvents.cs" />
+     <Compile Include="assets\Models 2\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
+     <Compile Include="assets\Standard Assets 1\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="assets\models 1\Campfire Pack\Script\SwitchView.cs" />
+     <Compile Include="assets\scripts 1\CameraMovement.cs" />
+     <Compile Include="assets\scripts 1\DonePlayerMovement2.cs" />
+     <Compile Include="assets\scripts 1\MenuButtons.cs" />
+     <Compile Include="assets\scripts 1\PlayerMovement.cs" />
+     <Compile Include="assets\scripts 1\SceneLoad.cs" />
+     <Compile Include="assets\scripts 1\Tags.cs" />
+     <None Include="assets\standard assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="assets\Dialogue System Assets\Read Me_Dialogue System.txt" />
+     <None Include="assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="assets\AnimationStateMachine\README.txt" />
+     <None Include="assets\standard assets\Skyboxes\_skybox info.txt" />
+     <None Include="assets\Bin\readme.txt" />
+     <None Include="assets\MixamoAnimatorEvents\standard assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="assets\standard assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="assets\AnimationStateMachine\Blank Scripts for You\YourGraph.txt" />
+     <None Include="assets\MixamoAnimatorEvents\standard assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="assets\MixamoAnimatorEvents\standard assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="assets\standard assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="assets\standard assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="assets\Dialogue System Assets\Dialogue System\Shaders\3D Text Shader.shader" />
+     <None Include="assets\MixamoAnimatorEvents\standard assets\Skyboxes\_skybox info.txt" />
+     <None Include="assets\MixamoAnimatorEvents\standard assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="assets\AnimationStateMachine\Scripts\demo_motion_pack.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Dialogue System Assets\Dialogue System\_Scripts\NPC_thirdPerson.js">
+    <Files>
+      <File FileName="assets\scripts 1\MenuButtons.cs" Line="33" Column="36" />
+      <File FileName="assets\Dialogue System Assets\Dialogue System\_Scripts\NPC_thirdPerson.js" Line="1" Column="1" />
+      <File FileName="assets\Standard Assets 1\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" Line="1" Column="1" />
+      <File FileName="assets\scripts 1\DonePlayerMovement2.cs" Line="105" Column="36" />
+      <File FileName="assets\Standard Assets 1\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
