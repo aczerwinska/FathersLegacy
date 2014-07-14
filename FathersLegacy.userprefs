@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\scripts 1\CharacterGUI.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Done\DoneScripts\PlayerScripts\DonePlayerMovement.cs">
     <Files>
-      <File FileName="assets\scripts 1\CharacterGUI.cs" Line="44" Column="46" />
+      <File FileName="assets\scripts 1\CharacterGUI.cs" Line="56" Column="82" />
+      <File FileName="assets\Done\DoneScripts\PlayerScripts\DonePlayerMovement.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
