@@ -1,4 +1,8 @@
-Students Quest: Fathers Legacy
-=============
+# Student's Quest: Father's Legacy
+> Game in development.
 
-Game Engine: Unity
+### About
+> "Student's Quest: Father's Legacy" is a RPG game about Frankie - engineering student.
+
+### Used:
+> Game Engine: Unity
