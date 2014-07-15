@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Grafika/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Grafika/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -54,7 +54,6 @@
      <None Include="assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="assets\AnimationStateMachine\README.txt" />
      <None Include="assets\standard assets\Skyboxes\_skybox info.txt" />
-     <None Include="assets\Bin\readme.txt" />
      <None Include="assets\MixamoAnimatorEvents\standard assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="assets\standard assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="assets\AnimationStateMachine\Blank Scripts for You\YourGraph.txt" />
@@ -67,7 +66,7 @@
      <None Include="assets\MixamoAnimatorEvents\standard assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="assets\AnimationStateMachine\Scripts\demo_motion_pack.txt" />
  <Reference Include="UnityEditor.Graphs">
- <HintPath>D:/Grafika/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
