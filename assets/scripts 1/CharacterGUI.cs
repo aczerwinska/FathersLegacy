@@ -3,6 +3,15 @@ using System.Collections;
  
 public class CharacterGUI : MonoBehaviour {
 
+	//BUTTON VARIABLES
+
+	public float buttonWidth = 60;
+	public float buttonHeight = 60;
+	private int inventoryRows = 6;
+	private int inventoryColumns = 6;
+
+	//CHARACTER PANEL VARIABLES
+
 	public bool displayCharacterWindow = false;
 	private const int CHARACTER_PANEL_ID = 0;
 	private Rect characterPanelRect = new Rect(10,10, 500, 500);
@@ -12,13 +21,17 @@ public class CharacterGUI : MonoBehaviour {
 
 
 	// Use this for initialization
+
 	void Start () {
 	
 	}
 	
 	// Update is called once per frame
+
 	void Update () {
-	
+		if(Input.GetKey(KeyCode.C)){
+			displayCharacterWindow = !displayCharacterWindow;
+		}
 	}
 
 	void OnGUI(){
@@ -38,11 +51,11 @@ public class CharacterGUI : MonoBehaviour {
 	}
 
 	private void DisplayInventory(){
-		// Debug.Log ("Inventory");
-		GUI.Box(new Rect(5, 120, 100, 46), "Fabular");
-		GUI.Box(new Rect(5, 190, 100, 46), "Drinks");
-		GUI.Box(new Rect(5, 260, 100, 46), "Food");
-
+		for(int y = 0; y < inventoryRows; y++){
+			for(int x = 0; x < inventoryColumns; x++){
+				GUI.Button(new Rect(50 + (x*buttonWidth), 100 + (y*buttonHeight), buttonWidth - 15, buttonHeight - 15),(x + y*inventoryColumns).ToString());
+			}
+		}
 	}
 
 }
