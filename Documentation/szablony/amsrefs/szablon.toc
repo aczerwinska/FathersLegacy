@@ -1,0 +1,9 @@
+\select@language {polish}
+\contentsline {chapter}{Wprowadzenie}{5}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Tytuł rozdziału}{6}{chapter.1}
+\contentsline {section}{\numberline {1.1}Tytuł rozdziału}{6}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Tytuł podrozdziału}{6}{subsection.1.1.1}
+\contentsline {chapter}{Zakończenie}{7}{chapter*.5}
+\contentsline {chapter}{\numberline {A}Tytuł załącznika}{8}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tytuł załącznika}{9}{appendix.B}
+\contentsline {chapter}{Oświadczenie}{11}{appendix*.7}
