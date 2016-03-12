@@ -1,8 +1,7 @@
-# Student's Quest: Father's Legacy
-> Game in development.
+# Unity - Narzędzie dla twórców gier
 
-### About
-> "Student's Quest: Father's Legacy" is a RPG game about Frankie - engineering student.
+### Agnieszka Czerwińska, Michał Maciejewski, Mateusz Żelazek
 
-### Used:
-> Game Engine: Unity
+Unity, Gaming, GameDesign, 3DGraphic, C#, JavaScript
+
+## ToDo
